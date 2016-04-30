@@ -1,0 +1,1 @@
+﻿You can search the Terraria Wiki by hovering over an item in your inventory or hovering over a monster in the world and pressing the tWiki keybinding (default L, can be changed in the Mod Controls menu). All links will be opened in your default web browser.

@@ -1,3 +1,4 @@
 /*.csproj
 /bin
 /obj
+*.config

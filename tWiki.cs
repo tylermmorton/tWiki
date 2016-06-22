@@ -3,10 +3,6 @@ using Terraria.ModLoader;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
 using System.Collections.Generic;
-using System.Net;
-using System;
-using Microsoft.Xna.Framework;
-using tWiki.Data;
 
 namespace tWiki
 {
@@ -18,24 +14,11 @@ namespace tWiki
 
         public override void Load()
         {
-         
             this.RegisterHotKey("tWiki Search", "L");
-            //this.RegisterHotKey("tWiki Item Cursor", "RSHIFT");
-
-            //this.AddGlobalItem("tWikiItemCursor", new ItemCursor());
-
-            //for(int i = 0; i < this.Unload )
         }
 
         public override void HotKeyPressed(string name)
         {
-            
-            //if (name == "tWiki Item Cursor")
-            //{
-            //    // Toggle the item cursor
-            //    ItemCursor.showItemCursor = !ItemCursor.showItemCursor;
-            //}
-
             // Check to see if the player is hovering an NPC
             string hover = null;
             if (name == "tWiki Search" && (hover = GetHoveringNPC()) != null)

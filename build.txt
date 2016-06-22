@@ -1,5 +1,5 @@
 author = DrEinsteinium
-version = 0.7
+version = 0.8
 displayName = tWiki
 homepage = http://forums.terraria.org/index.php?threads/twiki-easy-peasy-wiki-access.39132/
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, git\*

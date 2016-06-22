@@ -18,10 +18,11 @@ namespace tWiki
 
         public override void Load()
         {
+         
             this.RegisterHotKey("tWiki Search", "L");
-            this.RegisterHotKey("tWiki Item Cursor", "RSHIFT");
+            //this.RegisterHotKey("tWiki Item Cursor", "RSHIFT");
 
-            this.AddGlobalItem("tWikiItemCursor", new ItemCursor());
+            //this.AddGlobalItem("tWikiItemCursor", new ItemCursor());
 
             //for(int i = 0; i < this.Unload )
         }
@@ -29,11 +30,11 @@ namespace tWiki
         public override void HotKeyPressed(string name)
         {
             
-            if (name == "tWiki Item Cursor")
-            {
-                // Toggle the item cursor
-                ItemCursor.showItemCursor = !ItemCursor.showItemCursor;
-            }
+            //if (name == "tWiki Item Cursor")
+            //{
+            //    // Toggle the item cursor
+            //    ItemCursor.showItemCursor = !ItemCursor.showItemCursor;
+            //}
 
             // Check to see if the player is hovering an NPC
             string hover = null;
